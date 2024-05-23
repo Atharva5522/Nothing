@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ndot-55, NType82Mono;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Navbar{
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    font-size: 23px;
+    
+}
+.lst{
+    padding-right: 60px;
+    list-style: none;
+    font-size: 25px;
+}
+.phone{
+    display: flex;
+    width: 100%;
+    height:100vh;
+
+}
+.img-section{
+    width: 65%;
+    
+
+}
+
+
+.img-section img{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.text-section{
+    width: 35%;
+    position: relative;
+    
+}
+.write{
+    
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
+}
+.write h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+.write p{
+    font-size: 17px;
+    
+}
+
+.write button{
+    background-color: #002F6C;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.write button:hover{
+    background-color: #022048;
+    width: 90%;
+    transition: 1s;
+}
+
+.Wallpaper{
+    width: 100%;
+    height: 240px;
+    
+}
+.Wallpaper ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+   padding-block: 90px;
+}
+.Wallpaper ul li h1{
+    text-align: center;
+}
+
+.Wallpaper ul li h5{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(48, 47, 47);
+}
+
+.Email-section{
+    width: 100%;
+     height: 480px;
+    background-color: black; 
+    
+}
+.line{
+    border: 1px solid gray;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+     padding-inline: 90px; 
+    
+}
+.product ul{
+     margin-top: 90px; 
+}
+.product ul li{
+    list-style: none;
+    color: white;
+    font-size: 19px;
+     padding-top: 5px; 
+
+}
+
+.product ul li input{
+    height: 50px;
+    width: 130%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.last-section{
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+
+
+.icon-section ul li{
+    color: white;
+    list-style: none;
+    font-weight: 600;
+
+}
+.icon-section ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 60%;
+}
+
+
+
+
+
+ @media (max-width:768px){
+     .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .Navbar{
+        width: 100%;
+        height: auto;
+    }
+    .list{
+         width: 100%;
+        height: auto; 
+         display: none; 
+    }
+}
+    
+    /* #nothing{
+        width: 100%;
+        height: auto;
+        display: inline;
+
+
+    } 
